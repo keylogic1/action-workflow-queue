@@ -30,7 +30,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: ahmadnassri/action-workflow-queue@v1
+      - uses: keylogic1/action-workflow-queue@v1
 
       # only runs additional steps if there is no other instance of `my-workflow.yml` currently running
 ```
@@ -48,16 +48,16 @@ jobs:
 > Twitter: [@AhmadNassri](https://twitter.com/AhmadNassri)
 
 [license-url]: LICENSE
-[license-img]: https://badgen.net/github/license/ahmadnassri/action-workflow-queue
+[license-img]: https://badgen.net/github/license/keylogic1/action-workflow-queue
 
-[release-url]: https://github.com/ahmadnassri/action-workflow-queue/releases
-[release-img]: https://badgen.net/github/release/ahmadnassri/action-workflow-queue
+[release-url]: https://github.com/keylogic1/action-workflow-queue/releases
+[release-img]: https://badgen.net/github/release/keylogic1/action-workflow-queue
 
-[super-linter-url]: https://github.com/ahmadnassri/action-workflow-queue/actions?query=workflow%3Asuper-linter
-[super-linter-img]: https://github.com/ahmadnassri/action-workflow-queue/workflows/super-linter/badge.svg
+[super-linter-url]: https://github.com/keylogic1/action-workflow-queue/actions?query=workflow%3Asuper-linter
+[super-linter-img]: https://github.com/keylogic1/action-workflow-queue/workflows/super-linter/badge.svg
 
-[test-url]: https://github.com/ahmadnassri/action-workflow-queue/actions?query=workflow%3Atest
-[test-img]: https://github.com/ahmadnassri/action-workflow-queue/workflows/test/badge.svg
+[test-url]: https://github.com/keylogic1/action-workflow-queue/actions?query=workflow%3Atest
+[test-img]: https://github.com/keylogic1/action-workflow-queue/workflows/test/badge.svg
 
-[semantic-url]: https://github.com/ahmadnassri/action-workflow-queue/actions?query=workflow%3Arelease
+[semantic-url]: https://github.com/keylogic1/action-workflow-queue/actions?query=workflow%3Arelease
 [semantic-img]: https://badgen.net/badge/📦/semantically%20released/blue
